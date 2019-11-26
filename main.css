@@ -1,0 +1,192 @@
+html{
+    background-color: #ffe6cc;
+    color: #804200; 
+    font-size: 18px, 
+}
+main{
+  max-width: 100%;
+}
+
+  h1{
+    font-family: 'Monoton', cursive;
+    font-size: 3.5em;
+    color: #07034c;
+  }
+  h2, 
+  h3{
+    font-family: 'Monoton', cursive;
+    font-size: 3em;
+    border-bottom: 2px solid #07034c;
+  }
+
+  p,
+  a, 
+  ul{
+    font-family: 'Montserrat', sans-serif;
+    color: #804200;
+  }
+  .zdog-canvas{  
+    background: url(img/housesbg.png) center no-repeat #ffe6cc;
+    background-size: 80%;
+    cursor: move;
+    }
+  
+    .employeeOne-canvas,
+    .employeeTwo-canvas{
+    background-color: #329681;
+    cursor: move;
+    }
+    .ingredient-illo{
+    
+      margin: 25px;
+      cursor: move;
+    }
+    
+    .image{
+      max-width: 95%;
+    }
+  header{
+    padding: 5px 80px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  nav{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding: 10px;
+    border-bottom: 2px solid #07034c;
+  }
+  address{
+    font-family: 'Montserrat', sans-serif;
+    text-emphasis: none;
+    font-style:normal;
+  }
+  a{
+    text-decoration: none;
+    padding: 2px 10px ;
+  }
+  a:hover{
+    padding: 0px 10px;
+    border-bottom: 2px solid #329681;
+  }
+
+  .subtitle{
+    font-size: 2em;
+    font-weight:500;
+    margin: 20px 0px 10px;
+  }
+  #landing{
+      display: flex; 
+      justify-content: space-around; 
+      align-items: center;
+      flex-flow: row wrap;
+      max-width: 100%;
+      border-bottom: 5px solid #329681;
+  }
+  .page-info,
+  .image-area{
+    max-width: 50%;
+    padding: 10px 25px;
+  }
+
+  #ingredients, 
+  #grab-a-brew, 
+  #employees{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow:row wrap;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  #ingredients{
+    border-top: 5px solid #1fe5bb;
+    margin: 50px auto;
+  }
+  #ingredient-icons{
+    justify-content: space-between;
+    max-width: 90%;
+  }
+  #grab-a-brew{
+    border-top: 5px solid #329681;
+    margin: 20px auto;
+  }
+  .map-container{
+    max-width: 40%;
+    margin: 50px auto;
+  }
+  iframe{
+    max-width: 100%;
+    overflow: hidden;
+  }
+.profile{
+  max-width: 35%;
+  margin: 0 auto;
+}
+#contact{
+  max-width: 90%;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border-top: 5px solid #329681;
+}
+#employees{
+  padding: 25px 0px 50px;
+  border-bottom: 5px solid #329681;
+}
+.profile-pic{
+  max-width:100%;
+}
+#contact-info{
+  max-width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+/************* TABLET STYLES ********************/
+
+@media screen and (max-width: 1000px) {
+  header{
+    flex-flow: column-reverse;
+  }
+  nav{
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  #ingredients{
+    justify-content: center;
+    flex-flow:column;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+ 
+  #ingredient-icons{
+    display: none;
+}
+#grab-a-brew{
+  flex-flow: column-reverse;
+}
+.map-container{
+  max-width: 100%;
+  margin: 25px auto;
+}
+.page-info,
+  .image-area{
+    max-width: 95%;
+    padding: 10px 25px;
+  }
+  #employees{
+    display: none;
+  }
+}
