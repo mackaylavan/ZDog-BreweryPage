@@ -158,6 +158,11 @@ main{
   header{
     flex-flow: column-reverse;
   }
+  .zdog-canvas{  
+    background-size: 100%;
+    max-width: 100%;
+    cursor: move;
+    }
   nav{
     justify-content: space-evenly;
     width: 90%;
