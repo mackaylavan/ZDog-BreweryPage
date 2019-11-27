@@ -1,7 +1,7 @@
 html{
     background-color: #ffe6cc;
     color: #804200; 
-    font-size: 18px, 
+    font-size: 18px;
 }
 main{
   max-width: 100%;
@@ -20,11 +20,12 @@ main{
   }
 
   p,
-  a, 
-  ul{
+  a{
     font-family: 'Montserrat', sans-serif;
     color: #804200;
+    line-height: 1.5em; 
   }
+  
   .zdog-canvas{  
     background: url(img/housesbg.png) center no-repeat #ffe6cc;
     background-size: 80%;
